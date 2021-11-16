@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="TableViewCell" rowHeight="320" id="KGk-i7-Jjw" customClass="TableViewCell" customModule="WelcomePage" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="457" height="319"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="457" height="319"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CIy-lL-WUh">
+                        <rect key="frame" x="265" y="218" width="162" height="41"/>
+                        <color key="backgroundColor" red="0.039215687659999998" green="0.58039218189999997" blue="0.93333339689999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="41" id="3bj-Uj-NRP"/>
+                            <constraint firstAttribute="width" constant="162" id="J4j-jd-hj8"/>
+                        </constraints>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <state key="normal" title="Button"/>
+                        <buttonConfiguration key="configuration" style="plain">
+                            <attributedString key="attributedTitle">
+                                <fragment content="twitter">
+                                    <attributes>
+                                        <font key="NSFont" size="20" name="Helvetica"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                    </attributes>
+                                </fragment>
+                            </attributedString>
+                        </buttonConfiguration>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RW2-jg-aLX">
+                        <rect key="frame" x="30" y="274" width="397" height="34"/>
+                        <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <state key="normal" title="Button"/>
+                        <buttonConfiguration key="configuration" style="plain">
+                            <attributedString key="attributedTitle">
+                                <fragment content="OR">
+                                    <attributes>
+                                        <font key="NSFont" size="17" name="Helvetica"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                    </attributes>
+                                </fragment>
+                            </attributedString>
+                        </buttonConfiguration>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HX9-0w-vVh">
+                        <rect key="frame" x="30" y="218" width="162" height="41"/>
+                        <color key="backgroundColor" red="0.364705890417099" green="0.16862745583057404" blue="0.92941182851791382" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="162" id="2Op-wB-144"/>
+                            <constraint firstAttribute="height" constant="41" id="2tk-II-9Ab"/>
+                        </constraints>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <state key="normal" title="Button"/>
+                        <buttonConfiguration key="configuration" style="plain">
+                            <attributedString key="attributedTitle">
+                                <fragment content="facebook">
+                                    <attributes>
+                                        <font key="NSFont" size="20" name="Helvetica"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                    </attributes>
+                                </fragment>
+                            </attributedString>
+                        </buttonConfiguration>
+                    </button>
+                    <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LOGIN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pqb-RV-Rlr">
+                        <rect key="frame" x="35" y="121" width="387" height="48"/>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="40"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="RW2-jg-aLX" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="10" id="0Xt-Py-U3e"/>
+                    <constraint firstItem="pqb-RV-Rlr" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="110" id="2JO-VO-reZ"/>
+                    <constraint firstItem="HX9-0w-vVh" firstAttribute="top" secondItem="pqb-RV-Rlr" secondAttribute="bottom" constant="49" id="5WY-0w-8TF"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="CIy-lL-WUh" secondAttribute="trailing" constant="10" id="BPI-3g-hqC"/>
+                    <constraint firstItem="RW2-jg-aLX" firstAttribute="top" secondItem="HX9-0w-vVh" secondAttribute="bottom" constant="15" id="NiV-En-0W3"/>
+                    <constraint firstItem="RW2-jg-aLX" firstAttribute="top" secondItem="CIy-lL-WUh" secondAttribute="bottom" constant="15" id="RNd-4d-dOG"/>
+                    <constraint firstItem="CIy-lL-WUh" firstAttribute="top" secondItem="pqb-RV-Rlr" secondAttribute="bottom" constant="49" id="V4J-Jo-DbO"/>
+                    <constraint firstItem="pqb-RV-Rlr" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="15" id="d1P-AS-EPm"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="pqb-RV-Rlr" secondAttribute="trailing" constant="15" id="dBV-gS-oNX"/>
+                    <constraint firstItem="HX9-0w-vVh" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="10" id="mqQ-NP-vVJ"/>
+                    <constraint firstItem="pqb-RV-Rlr" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="sC3-B2-s6z"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="RW2-jg-aLX" secondAttribute="trailing" constant="10" id="xIf-tP-uev"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="facebook" destination="HX9-0w-vVh" id="hgy-uq-4Zu"/>
+                <outlet property="nameLable" destination="pqb-RV-Rlr" id="PnK-9b-aas"/>
+                <outlet property="orButton" destination="RW2-jg-aLX" id="77y-da-q7i"/>
+                <outlet property="twitter" destination="CIy-lL-WUh" id="BtY-IN-GO3"/>
+            </connections>
+            <point key="canvasLocation" x="507.97101449275368" y="15.066964285714285"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SecondViewCell" rowHeight="70" id="KGk-i7-Jjw" customClass="SecondViewCell" customModule="WelcomePage" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="70"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="70"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ad4-9e-4Tq">
+                        <rect key="frame" x="85" y="11" width="294" height="50"/>
+                        <color key="backgroundColor" red="0.90196084976196289" green="0.90196084976196289" blue="0.97254908084869385" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="8g2-hd-VyE"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                    </textField>
+                    <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="password" translatesAutoresizingMaskIntoConstraints="NO" id="VRg-jw-7fK">
+                        <rect key="frame" x="27" y="19" width="53" height="30"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="rFa-qc-2r9"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="VRg-jw-7fK" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="27" id="1K0-oj-s0E"/>
+                    <constraint firstItem="VRg-jw-7fK" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="19" id="gm7-v8-S56"/>
+                    <constraint firstItem="Ad4-9e-4Tq" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="65" id="h29-fc-QTD"/>
+                    <constraint firstItem="Ad4-9e-4Tq" firstAttribute="leading" secondItem="VRg-jw-7fK" secondAttribute="trailing" constant="5" id="uxH-J7-MX3"/>
+                    <constraint firstItem="Ad4-9e-4Tq" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="11" id="vK3-y1-9KK"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="Ad4-9e-4Tq" secondAttribute="trailing" constant="15" id="vl9-Om-jKh"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="passwordImage" destination="VRg-jw-7fK" id="S0M-um-Atg"/>
+                <outlet property="usernameText" destination="Ad4-9e-4Tq" id="Vf4-UG-3AQ"/>
+            </connections>
+            <point key="canvasLocation" x="237.68115942028987" y="18.415178571428569"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="password" width="860" height="901"/>
+    </resources>
+</document>

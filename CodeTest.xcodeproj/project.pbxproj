@@ -30,7 +30,7 @@
 		D509E923273C116D005E5ADE /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 		D528F47C273E5F4F0013EB62 /* ThirdViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewCell.swift; sourceTree = "<group>"; };
 		D528F47D273E5F4F0013EB62 /* ThirdViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThirdViewCell.xib; sourceTree = "<group>"; };
-		D52DB441273B514300F001EE /* WelcomePage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WelcomePage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D52DB441273B514300F001EE /* CodeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D52DB444273B514300F001EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D52DB446273B514300F001EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D52DB44B273B514300F001EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -60,7 +60,7 @@
 		D52DB438273B514300F001EE = {
 			isa = PBXGroup;
 			children = (
-				D52DB443273B514300F001EE /* WelcomePage */,
+				D52DB443273B514300F001EE /* CodeTest */,
 				D52DB442273B514300F001EE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,12 +68,12 @@
 		D52DB442273B514300F001EE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D52DB441273B514300F001EE /* WelcomePage.app */,
+				D52DB441273B514300F001EE /* CodeTest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D52DB443273B514300F001EE /* WelcomePage */ = {
+		D52DB443273B514300F001EE /* CodeTest */ = {
 			isa = PBXGroup;
 			children = (
 				D52DB444273B514300F001EE /* AppDelegate.swift */,
@@ -86,7 +86,7 @@
 				D52DB44F273B514400F001EE /* LaunchScreen.storyboard */,
 				D52DB452273B514400F001EE /* Info.plist */,
 			);
-			path = WelcomePage;
+			path = CodeTest;
 			sourceTree = "<group>";
 		};
 		D54FD57D273FE0A300885BD3 /* StoryboardCells */ = {
@@ -124,9 +124,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D52DB440273B514300F001EE /* WelcomePage */ = {
+		D52DB440273B514300F001EE /* CodeTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D52DB455273B514400F001EE /* Build configuration list for PBXNativeTarget "WelcomePage" */;
+			buildConfigurationList = D52DB455273B514400F001EE /* Build configuration list for PBXNativeTarget "CodeTest" */;
 			buildPhases = (
 				D52DB43D273B514300F001EE /* Sources */,
 				D52DB43E273B514300F001EE /* Frameworks */,
@@ -136,9 +136,9 @@
 			);
 			dependencies = (
 			);
-			name = WelcomePage;
+			name = CodeTest;
 			productName = WelcomePage;
-			productReference = D52DB441273B514300F001EE /* WelcomePage.app */;
+			productReference = D52DB441273B514300F001EE /* CodeTest.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -156,7 +156,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D52DB43C273B514300F001EE /* Build configuration list for PBXProject "WelcomePage" */;
+			buildConfigurationList = D52DB43C273B514300F001EE /* Build configuration list for PBXProject "CodeTest" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -169,7 +169,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D52DB440273B514300F001EE /* WelcomePage */,
+				D52DB440273B514300F001EE /* CodeTest */,
 			);
 		};
 /* End PBXProject section */
@@ -354,7 +354,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = WelcomePage/Info.plist;
+				INFOPLIST_FILE = CodeTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -365,7 +365,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = abc.WelcomePage;
+				PRODUCT_BUNDLE_IDENTIFIER = abc.CodeTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -381,7 +381,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = WelcomePage/Info.plist;
+				INFOPLIST_FILE = CodeTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -392,7 +392,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = abc.WelcomePage;
+				PRODUCT_BUNDLE_IDENTIFIER = abc.CodeTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -403,7 +403,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D52DB43C273B514300F001EE /* Build configuration list for PBXProject "WelcomePage" */ = {
+		D52DB43C273B514300F001EE /* Build configuration list for PBXProject "CodeTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D52DB453273B514400F001EE /* Debug */,
@@ -412,7 +412,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D52DB455273B514400F001EE /* Build configuration list for PBXNativeTarget "WelcomePage" */ = {
+		D52DB455273B514400F001EE /* Build configuration list for PBXNativeTarget "CodeTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D52DB456273B514400F001EE /* Debug */,
